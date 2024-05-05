@@ -362,7 +362,7 @@ tbody tr {
         justify-content: center;
     }
     .product-content{
-       
+       padding-top: 0;
     }
 }
 
@@ -374,4 +374,8 @@ tbody tr {
 }
 @media only screen and (min-width: 1025px) {
   /* Styles for large screens */
+}
+
+@media screen and (max-width: 768px) {
+    /* CSS rules for smaller screens */
 }
