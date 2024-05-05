@@ -480,13 +480,14 @@ a{
 @media(max-width:1060px){
   .testimonial-box{
     width:45%
-    
+    max-width: none;
   }
 }
 
 @media(max-width:790px){
   .testimonial-box{
     width: 100%;
+    max-width: none;
   }
   .testimonial-heading h1{
      font-size: 1.4rem;
