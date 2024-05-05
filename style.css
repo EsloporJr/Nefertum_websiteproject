@@ -428,6 +428,13 @@ a{
   flex-wrap: wrap;
   width: 100%;
 }
+.box-top {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-bottom: 20px;
+  flex-wrap: wrap;
+}
 .testimonial-box{
   width:500px;
   box-shadow: 2px 2px 30px rgba(0,0,0,0.1);
