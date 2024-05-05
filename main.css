@@ -293,12 +293,16 @@ a:hover{
 	text-transform: capitalize;
 }
 
-@media only screen and (max-width: 600px) {
+@media only screen and (max-width: 768px) {
   /* Styles for small screens */
 }
-@media only screen and (min-width: 601px) and (max-width: 1024px) {
+@media only screen and (min-width: 768px) and (max-width: 1024px) {
   /* Styles for medium screens */
 }
 @media only screen and (min-width: 1025px) {
   /* Styles for large screens */
+}
+
+@media screen and (max-width: 768px) {
+    /* CSS rules for smaller screens */
 }
