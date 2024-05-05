@@ -351,7 +351,7 @@ tbody tr {
         grid-gap: 1.5rem;
     }
     .card-wrapper{
-        height: 100vh;
+        height: auto;
         display: flex;
         justify-content: center;
         align-items: center;
@@ -361,7 +361,9 @@ tbody tr {
         flex-direction: column;
         justify-content: center;
     }
-    
+    .product-content{
+        padding-top: 1rem;
+    }
 }
 
 @media only screen and (max-width: 768px) {
